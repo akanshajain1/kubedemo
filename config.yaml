@@ -1,0 +1,68 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURERENDQWZTZ0F3SUJBZ0lSQU9yVEJlR0lkUGpXYkdlS0xCczViYVl3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa09HWTROelk1TXprdFltWmtNUzAwTmpKbUxUaGtOemd0TnpVd01EQmtNREpoTTJObQpNQjRYRFRFNU1EVXhNakE0TkRZeE5sb1hEVEkwTURVeE1EQTVORFl4Tmxvd0x6RXRNQ3NHQTFVRUF4TWtPR1k0Ck56WTVNemt0WW1aa01TMDBOakptTFRoa056Z3ROelV3TURCa01ESmhNMk5tTUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBdXRZV1E4SzNtZ0NPMDNabmUvWkFrV21wd2UrREVhakZSWUpvRUtpaApzYjlFczh0MlJTVStqanpiTVNNeHBIWExKNWtuSi9FNXlYaVA0ck4yYUR6NVRxdExOR3ZZNkdQMWY0aXhIM25WCjRwaDd2WmVrTFBEdzZhcDlVVGpxajNoVTRUZi9wdWl4ZjBrZys0NkJQb3M4TGFPRDJ2SmpnRDdUUkx3bjU5WkYKNnhDdExqRmx3YWJsMUNHeDI2elRQQmpTRzZqSUVpcDRNYUU2a3J3VlRVUEtrOGZSUi9QaHplaDFiNml0SHlOcwprVDRMRVFIMlZ6NkhLVXRscTlQNkJOZnphK1p0S1NCMDA1LzF6eU9oYjU0M0dRano1YWlXL2RnTlBML3QvNWJMCk1EblNIaWhLQkFoZ3lEYndUb2lMenRGdzczbDBqQTBveVpjRk84WXpZcEM5QndJREFRQUJveU13SVRBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQQpXUEptek8vZzFaR1pxUVVHYnh0Ym96d0UzVmZXZUlkQjBTVWtYK0Y5Q0pDQUxaSGUvT1FGY2Q2VjNRSXJ0cmtRClR5UTFUQXp6Q05FU1pTeHlxZ1ZJR3o3ZUYwemxZSzBwbnBkNzYvWk9kdU9PbDdZUlVDNlpvb1hNRE00Zi9DM3cKWEk0b21VZmdVallENFNyWWdONUJUVDU5dlFjdFNSd3NocG92ZjBDRHFFbDY3U3NtZUl4M0FHaW9Pa21Yalo0LwpMakdObGpCY3kyU0hSdGphNCtFbEJFU1ZmaEtac1A3Tk9BTCszMU9KOW1BVTZLZ2Fod0tmOU9EUEloZHJxRGZ1CnRySUZ3VnVadDB6LzZZaVhxc2x2Y3dhK2cxVXZVV1J0Snh6NSt3UWtyUksveWd4ZDVxUFRMTnFhSzEwK2p4S1cKZk1WZkF3OXF6TFVIVnZwZlRSeCs0dz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://34.66.67.236
+  name: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURERENDQWZTZ0F3SUJBZ0lSQU16SWpQNXZLVzZLQkhqa1BzajlyTk13RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa1lUbG1aREJpWlRrdE1qUTNZeTAwTW1VMExXSXpNRFF0TmpReU1HSTNOamRoWVdZdwpNQjRYRFRFNU1EUXdNekEyTURJek9Wb1hEVEkwTURRd01UQTNNREl6T1Zvd0x6RXRNQ3NHQTFVRUF4TWtZVGxtClpEQmlaVGt0TWpRM1l5MDBNbVUwTFdJek1EUXROalF5TUdJM05qZGhZV1l3TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBaUNReU9qRjdZaS9BdW5wRkhBUytoREtqMlhMd1hNMFlYR1ZrYStNRQpMaGdscUx4bHRDSXhjOHpGd1BtMFo5c0RPSmNJRFdpZEVyMUNyWk1vVUtjdndVM01Sa0VDeVJhWGEyYnJTRkZpCjIwSWVQV1hrNURHd2dsTVhzVlFCOTNObjZTQVBjY1VrS3lqV0Z3MmtVTmpudGtGd0sxZTlIa2p5Q2pwTHVqMnEKYWdSL1lqeTVLMHpseitGNmhCU0ZCbWRoVzE0ay9wek5Uazh6VzZNNFU0bmRId0xFR0t6WjB2eG1SYXNpUjlDVApmUGFSdTkzWWp4c2E1dkcxNFkyZXJ2azA4WDlzdjV4OWFCbjFTb0FUN0lGYlhRU2FnNTRYQ2xZQ2hGMmk5L1ZxCnRzYy9NcHJCR251a2lNOTdvaWVqY1UyMWFQaDF0QjN5clZjaHMzUEpGNW9pdFFJREFRQUJveU13SVRBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQQpEaHkyM0xFUTRHYllVL0VDajEyMlU4cW5sOVhncG8zM1RKL2tJb1c4aVVOVEhzVjdTSzZlbDRRM0w3LzJ4Qk9YCkFpYTBDK3VlMDZuUUVZWDhFTkxQV0xCZGZPeTljRE1rVVFVK1ZkZ3ZJV3J3Qjk2ZkEvR0QxTUJrWGN5MjlwR2gKemdDODFXNWxDQ0ZxQVFtL2svR04vMnQvRFpWSldJWkpLNXQyemt6TytCTTY4TW1OUUVFNzBUZ2RkTWVBRWRMQwo1M2V3OFNQZXhSb1QzNmRPZVRFR2k0THNjRFZjTFErdUNjeDRWS2k2UzFwRElZWGczdG9MQ0NJazdJZW9RMnBYCm10SzYvWmVPNkx0ZXZIc1R0THhHdVBNaUxucm9yZjdHalN2N3dSWmtoTityenJlSzRIQjliQW51bnVtT0N3d2MKVzFsMUE0MWJCSFlBeC9vR00zSDhoUT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://108.59.86.184
+  name: gke_opportune-box-92805_us-central1-a_your-first-cluster-1
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRY0Y4cHNUS1EyVkdoT0VYNzJjV2liVEFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlRM01qRXpabUV4T0MxbVl6aGhMVFEzTWpjdFlUaGhOQzAwWlRKbE1qQTNORFV4WmpjdwpIaGNOTVRrd05ERXhNVEl3TXpJd1doY05NalF3TkRBNU1UTXdNekl3V2pBdk1TMHdLd1lEVlFRREV5UTNNakV6ClptRXhPQzFtWXpoaExUUTNNamN0WVRoaE5DMDBaVEpsTWpBM05EVXhaamN3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUNTTTRjbzNkUDFPUlNJUjRORWtWTzZFaTdrMWpIejIwYkF6VUVBVHF2ZApYYmhZekRYSVNJUXp3VS8xTS9JZ0oxQTZsVEV3ZS84bEZmNUhYRTVSUElScGRRbHRXZW10STFkZm1LUUdXczg5ClVyS2RqcndsOTdTQW16cmNiclNzemZIandIdGJaWjBGbm9RZUg5cFZWZmx6Mi9RWlFvNGVBb0hJMUFFbFc4anUKSlhVT05RekVLVUx4ekdOd3pqRFdTZDRiWkpldThxTHdBb3pBOTFSMjdMOVJ0MXJnRTdYOFc5WXNoQ3ZnYnNLVQpsTVdkTEEvb21jQmV0czVtb2RxMWdFYzRZTjRIdTZRMnU3NGJLbUVmTjA0aG1KQVBPSU1NbFZxb3lqMFhDSzE4ClBVbGIyYjAyc1huQUR5ZVo4cWE0UDJCYVVnREptWkZZbnJCRzRBcnpkYmFqQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBRQpuR2dhK0JIUEpxTzlNUlliUVlBUXl0QWpZMDlKYmZUVWlPU25Dck1XVjNiaEN2WkpSM1c4UnlwMW9NRHhWbDNWCnlyU1dEUDNCWFpiMUxmRzQzNURpUjhCWmFFWkZqdGZ4OSt6dmtFNUNzVlR5dTNqZStrODBVNk9WbGczOVBVS1cKaXpJZnhqM0dpN2hHYjRBZmx0amttZVArUDYweHVZNW9yWUtJM0VPcEZZS24zd0VqMDA3VDdPNW5TWUcxOGJ5ZApMRjJPNVBRTmdNcmRKRGJHNzhEUkhPTkNEcEhVZTNwYVltU1RYY1lmb2x3Y0hmd0p4SHAraTFQS1Mzc2ZCb1dBCm9NTDl6UFA2cGZ0Mkw2NmNTa1VpY2hXQS9LSGYzMnpDZkdvd0kxM0NoRFJlaS9kRXY5L21HamtOV1VWMkxqY3MKUXJHUmwyQkFOOEo1Nm9ySS9yY0YKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://35.224.255.39
+  name: gke_opportune-box-92805_us-central1-a_your-first-cluster-2
+contexts:
+- context:
+    cluster: ""
+    user: ""
+  name: gckad-s0
+- context:
+    cluster: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+    user: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+  name: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+- context:
+    cluster: gke_opportune-box-92805_us-central1-a_your-first-cluster-1
+    user: gke_opportune-box-92805_us-central1-a_your-first-cluster-1
+  name: gke_opportune-box-92805_us-central1-a_your-first-cluster-1
+- context:
+    cluster: gke_opportune-box-92805_us-central1-a_your-first-cluster-2
+    user: gke_opportune-box-92805_us-central1-a_your-first-cluster-2
+  name: gke_opportune-box-92805_us-central1-a_your-first-cluster-2
+current-context: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+kind: Config
+preferences: {}
+users:
+- name: gke_kubedemoproject_us-central1-a_your-first-cluster-1
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GqUBBwf0T-ygOqjKPG6wsmltikb7aLFJcm8mPQMJ1iwig1LKXYg06tqjq6zLGSb4vkKAZ4-rZSyvxOWO2B76wXMdWWovUmunsI-53HTHe0zeEaZjFC7dWcycliJ8LoAZZYmLpNlSsry-uZ7YqdZ0VRCnIQIPGZ9VZupDsXbU5EumgxN1CUAyK4kdn9qJoARIV6Y6YsIdbAXAu1gfesWk-DUmr66JZTpk
+        cmd-args: config config-helper --format=json
+        cmd-path: /google/google-cloud-sdk/bin/gcloud
+        expiry: 2019-05-12T17:01:45Z
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+- name: gke_opportune-box-92805_us-central1-a_your-first-cluster-1
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GqUB6AYgFzRBrMHS-_eeyX7ai9BgwWgnh49wN9HJ4zSbGNIAiEmZjXOjnzRK6Sk0HKslGuxA2a3hlW1usFZwP3dEwATBJWUXlnaPnGstMSyDoWQo90FK7D-tiJmGNw1MEfgEwMW4j7Nz-spTw508szXu1gDaMR49c__lNvHr6xVYtVzYK63tmpkPveonKhpCYWidNtpbYvfKqzsXKRH4YEh-SIzyKwxu
+        cmd-args: config config-helper --format=json
+        cmd-path: /google/google-cloud-sdk/bin/gcloud
+        expiry: 2019-04-11 13:56:53
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+- name: gke_opportune-box-92805_us-central1-a_your-first-cluster-2
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GqUB6gYq6h5EdtIETP6Kuw45E5Dnl_dRt7nK1yXiWnUtYbvde3G3zXFA2GmM5yIQjia61GGhC_67uTRqicenc62t0IHyDP8bdhTtUsEWjMQklOSQqtoURgXx7lJdxmob-cqoZrwjMWun4BOTmoyXDWLE4mYv8N-vFyFKWTa1DlCv5Rhs7PreYaCCRKZj-VWGW0LIu8VTFVJU2XoCcZee6rKV1mCoo-kJ
+        cmd-args: config config-helper --format=json
+        cmd-path: /google/google-cloud-sdk/bin/gcloud
+        expiry: 2019-04-13 18:31:58
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
