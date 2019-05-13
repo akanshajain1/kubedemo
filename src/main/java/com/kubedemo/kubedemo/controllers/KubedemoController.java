@@ -11,6 +11,6 @@ public class KubedemoController {
 	@RequestMapping("/hello")
 	public String kubedemo() {
 		
-		return "hello world";
+		return "hello mindtree";
 	}
 }
